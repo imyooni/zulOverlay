@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
 */
 
 const apiUrl = "https://api.streamersonglist.com/v1/";
-const streamerName = "imyooni";
-const streamerId = 33022; // y= 33022 , z = 26422
+const streamerName = "zuljanim";
+const streamerId = 26422; // y= 33022 , z = 26422
 let requestStatus = null;
 let currentSong = []
-let liveLearns = true
+let liveLearns = false
 
 
 
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   updateQueue();
-  setInterval(updateQueue, 10000);
+  setInterval(updateQueue, 5000);
  // cycleInfoText()
   setInterval(cycleInfoText, 8000);
 });
